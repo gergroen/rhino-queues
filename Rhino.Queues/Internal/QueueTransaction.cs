@@ -9,7 +9,7 @@ namespace Rhino.Queues.Internal
         private readonly QueueStorage queueStorage;
         private readonly Action assertNotDisposed;
         private readonly Action onComplete;
-        private readonly ILog logger = LogManager.GetCurrentClassLogger();
+        private readonly ILog logger = LogManager.GetLogger(typeof(QueueTransaction));
 
         public QueueTransaction(QueueStorage queueStorage, Action onComplete, Action assertNotDisposed)
         {

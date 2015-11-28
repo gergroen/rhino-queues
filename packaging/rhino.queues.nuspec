@@ -14,7 +14,7 @@
     <dependencies>
       <dependency id="Rhino.ServiceBus.References" version="3.1.1.0" />
       <dependency id="PowerThreading" version="20101026.0" />
-      <dependency id="Common.Logging" version="2.1.2" />
+      <dependency id="Common.Logging" version="3.0.0" />
     </dependencies>
   </metadata>
   <files xmlns="">
